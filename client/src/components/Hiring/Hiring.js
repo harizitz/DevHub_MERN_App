@@ -21,7 +21,9 @@ const HireCard = (props) => {
             .join("-")}
         </p>
       </div>
-      <p className="comp">Company link: {props.data.complink}</p>
+      <p className="comp">
+        Company link: <a href={props.data.complink}>Click Here</a>{" "}
+      </p>
       <button className="eenrol">
         <a href={props.data.applylink}>Apply Now</a>
       </button>
