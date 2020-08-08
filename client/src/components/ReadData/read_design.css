@@ -1,0 +1,109 @@
+.Outline {
+  text-align: left;
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 35%;
+  padding: 2%;
+  border-radius: 15px;
+  -webkit-box-shadow: 1px -1px 16px -3px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 1px -1px 16px -3px rgba(0, 0, 0, 0.7);
+  box-shadow: 1px -1px 16px -3px rgba(0, 0, 0, 0.7);
+}
+.Outline h2 {
+  text-align: center;
+  font-size: 35px;
+  font-family: sans;
+  color: rgb(15, 15, 155);
+}
+.Outline p {
+  font-size: 20px;
+  font-family: sans;
+  font-weight: bold;
+  color: #0f4c75;
+  padding-left: 8%;
+}
+.btnadd {
+  margin: 30px;
+  color: white;
+  font-size: 20px;
+  width: max-content;
+  text-align: center;
+  align-self: center;
+  padding: 10px 20px;
+  background-color: #197cda;
+  border-style: none solid none solid;
+  border-left-width: 8px;
+  border-right-width: 0px;
+  border-color: #ff7637;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0px 0px 5px 1px #00000033;
+  transition: 250ms ease-out;
+}
+.btnadd:hover {
+  background-color: #fc6e2d;
+  border-color: #1584eb;
+  border-left-width: 0px;
+  border-right-width: 8px;
+}
+
+.Outline input,
+select,
+option {
+  width: 75%;
+  height: 40px;
+  margin-left: 8%;
+  outline: none;
+  padding-left: 5%;
+  border-radius: 5px;
+  border: 1px solid #5944a6;
+  font-size: large;
+  background-color: #dde1ee;
+}
+.dpicker{
+  width: 75%;
+  height: 40px;
+  margin-left: 8%;
+  outline: none;
+  padding-left: 5%;
+  border-radius: 5px;
+  border: 1px solid #5944a6;
+  font-size: large;
+  background-color: #dde1ee;
+}
+.Outline input:focus {
+  border: 2px solid #5944a6;
+}
+.heady {
+  font-size: 35px;
+  font-family: sans;
+  color: rgb(15, 15, 155);
+}
+.FILLDETAILS {
+  align-items: center;
+  text-align: center;
+}
+
+.activebtn {
+  font-size: large;
+  color: white;
+  font-family: sans;
+  background-color: darkblue;
+  border: none;
+  padding: 15px;
+  font-weight: 600;
+}
+.offbtn {
+  font-size: large;
+  color: darkblue;
+  font-family: sans;
+  background-color: white;
+  font-weight: 600;
+  border: none;
+  border: solid 1px darkblue;
+  padding: 15px;
+}

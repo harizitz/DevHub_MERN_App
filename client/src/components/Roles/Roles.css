@@ -1,0 +1,51 @@
+.ROLES {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 3%;
+}
+.btns {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7%;
+}
+.active {
+  background-color: rgb(218, 214, 214);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 15px;
+  margin: 9px;
+}
+.inactive {
+  background-color: white;
+  border: none;
+  outline: none;
+  margin: 9px;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.active:hover,
+.inactive:hover {
+  background-color: rgb(53, 53, 128);
+  color: white;
+}
+.mapimg {
+  margin-left: 7%;
+}
+.mapimg img {
+  height: auto;
+  width: 850px;
+  border-radius: 25px;
+  -webkit-box-shadow: 2px 0px 31px -5px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 2px 0px 31px -5px rgba(0, 0, 0, 0.71);
+  box-shadow: 2px 0px 31px -5px rgba(0, 0, 0, 0.71);
+}
+.mapimg h2 {
+  text-align: center;
+  font-size: 35px;
+  font-family: sans;
+  color: rgb(15, 15, 155);
+}

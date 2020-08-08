@@ -1,0 +1,77 @@
+.COUPON {
+  margin: 5%;
+}
+.COUPON h2 {
+  text-align: center;
+  font-size: 35px;
+  font-family: sans;
+  color: rgb(15, 15, 155);
+}
+.CARDD {
+  width: 18%;
+  margin: 2%;
+  background-color: white;
+  border-radius: 15px;
+  padding: 0px 15px;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+.cow {
+  height: 200px;
+  width: 100%;
+}
+.coursename {
+  margin-top: 0px;
+  font-size: 20px;
+  font-family: sans;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(15, 15, 116);
+}
+.author {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 17px;
+  font-family: sans;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(15, 15, 116);
+}
+.exc {
+  font-size: 15px;
+  width: 35%;
+  padding-left: 15px;
+}
+.exct {
+  font-size: 15px;
+  width: 35%;
+  padding-left: 50px;
+}
+.code {
+  margin: 0px;
+  padding: 10px 10px;
+  text-align: center;
+  font-weight: 600;
+  background-color: yellow;
+  color: black;
+}
+.eenrol {
+  margin: 10px 30%;
+  padding: 10px;
+  font-size: 15px;
+  background-color: darkblue;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  align-items: center;
+}
+.eenrol a {
+  color: white;
+  text-decoration: none;
+}
+.allcord {
+  display: flex;
+  flex-wrap: wrap;
+}

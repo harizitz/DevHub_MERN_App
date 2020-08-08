@@ -1,0 +1,46 @@
+.HOME {
+  margin-top: 5%;
+  max-width: 95%;
+}
+.flexrow {
+  display: flex;
+  flex-direction: row;
+}
+.hub {
+  color: rgb(53, 61, 170);
+  font-weight: 600;
+}
+@font-face {
+  font-family: sans;
+  src: url("../../assets/sans.woff");
+}
+.topdiv {
+  width: 47.5%;
+  font-size: 25px;
+  line-height: 40px;
+  color: black;
+  font-weight: 500;
+  font-family: sans;
+}
+.hire {
+  width: 100%;
+  height: 60%;
+  margin-bottom: 0%;
+}
+@media (max-width: 1140px) {
+  .topdiv {
+    font-size: medium;
+    width: 95%;
+    line-height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .HOME {
+    display: block;
+  }
+  .hire {
+    width: 65%;
+    height: 25%;
+    margin-left: 15%;
+  }
+}
